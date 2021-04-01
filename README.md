@@ -1,45 +1,54 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# What's Cooking
 
-Welcome USER_NAME,
+## Code Institute Milestone Project 2
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+A responsive website used as a recipe search. Recipes can found using ingredients through an API. It'd designed to help users find new recipes to cook involving either their favourite foods or what might be available in the fridge and cupboards.
 
-## Gitpod Reminders
+This is can be helpful to user as a meal planner, which can help the environment as i can reduce food wastage by helping the user use up food thats already been bought.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The site can be built upon further by adding more features in the future, which could make it a complete weekly planner for cooking and food shopping.
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: *Make Public*,
+The aim of the website is a random recipe finder based on the user entering up to three ingredients. The site also wants to promote healthy eating so will show the user nutritional values and calories for each recipe. The site also wants to encourage users to stop wasting food. 
 
-Another blue button should appear to click: *Open Browser*.
+### Target Users
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Users looking for new recipes ideas
+* Users interested in the nutritional values of food
+* Users interested in healthy food
+* Users looking to use up food items already in their pantry
+* Users looking new recipes based specific ingredients
+* Users new to cooking
+* Users that know how to cook
+* User who are watching the calories
 
-A blue button should appear to click: *Make Public*,
+### User Stories
 
-Another blue button should appear to click: *Open Browser*.
+* As a User I want a clean and clear Website
+* As a User I want to be able to use the website with ease
+* As a User I want to be able to find a wide arrange of recipes
+* As a user I want to find new and random recipes using certain ingredients
+* As a User I want to be able to the nutritional values of the recipe
+* As a User I want to know how many calories the recipe is
+* As a User I don't want to buy more food and want to use what is in my pantry.
+* As a User I want to able to use the site on different platforms
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The wireframes cane be found [here].
 
-## Updates Since The Instructional Video
+## Features
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+#### Exsisting Features
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+One page consisting of 
+1. landing - Hero image, Main Header and about the site
+2. Input form for the ingredients with a submit button
+3. Recipe broken into 3 columns. Ingredients, Method & Nutrition
+4. Next and Previous buttons so user can navigate through recipes
+5. Footer with links to Social Media
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+#### Future Features
+* Search recipe by calories
+* Shopping List creator based on saved recipes
+* Membership feature allowing the user to pay a fee to permanently save recipes and possibly extend search
