@@ -1,13 +1,118 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<!-- links -->
+     <link
+      rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+
     <title>What's Cooking?</title>
+
 </head>
 <body>
-    
+
+    <div class="overlay"></div>
+
+<!-- navigation -->
+
+    <nav class="navbar navbar-expand-md nav-color mb-0">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Calories</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Ingredients</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">Spoontacular</a>
+            </li>
+        </ul>
+    </nav>
+
+<!-- landing -->
+
+    <header>
+        <div class="jumbotron-fluid main-image p-1">
+            <div class="col-6 ml-5 pl-5">
+                <h1 class="heading m- p-4">What's Cooking?</h1>
+            </div>    
+            <div class="col-6 ml-5 pl-2">
+                <p>
+                    Cupcake ipsum dolor sit amet. Pie marzipan liquorice cheesecake powder liquorice.
+                Dessert dragée pudding jelly beans. Toffee liquorice chocolate sweet dragée candy danish liquorice muffin.
+                Sweet roll lollipop gummies candy gingerbread ice cream I love sesame snaps. I love candy ice cream. 
+                Toffee wafer jelly beans. Halvah jelly wafer candy biscuit gummies tart gummi bears.
+                Cake bear claw candy sesame snaps sesame snaps pie. I love jelly-o cheesecake. 
+                Pudding gummies carrot cake bonbon sesame snaps chocolate cake soufflé. Caramels icing I love cookie tiramisu I love brownie.
+                </p>
+            </div>           
+        </div>
+    </header>
+
+<!-- calories search -->
+
+    <section class="m-4 p-2">
+        <div class="container calories center">  
+            <h2>Meal Planner</h2>
+            <p class="instuctions col-12">
+                Cupcake ipsum dolor sit amet. Pie marzipan liquorice cheesecake powder liquorice.
+                    Dessert dragée pudding jelly beans. Toffee liquorice chocolate sweet dragée candy danish liquorice muffin.
+                    Sweet roll lollipop gummies candy gingerbread ice cream I love sesame snaps. I love candy ice cream.
+            </p>
+            <div class="input-group mb-3 search-bar center">
+                <input type="text" class="form-control" placeholder="Enter Your Daily Calorie Allowance">
+                <div class="input-group-append">
+                    <button class="btn btn-submit" type="submit">Go</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- recipe search -->
+
+    <section class="m-4 p-2">
+        <div class="container recipes center">  
+            <h2>Recipe Finder</h2>
+            <p class="instuctions col-12">
+                Cupcake ipsum dolor sit amet. Pie marzipan liquorice cheesecake powder liquorice.
+                    Dessert dragée pudding jelly beans. Toffee liquorice chocolate sweet dragée candy danish liquorice muffin.
+                    Sweet roll lollipop gummies candy gingerbread ice cream I love sesame snaps. I love candy ice cream.
+            </p>
+            
+            <div class="input-group mb-3 search-bar center">
+                <input type="text" class="form-control" placeholder="Apples, Flour, Sugar">
+                <div class="input-group-append">
+                    <button class="btn btn-submit" type="submit">Go</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- footer -->
+
+    <footer>
+        <div class="container-fluid footer-basic">
+            <div class="social p-3">
+                <a target="_blank" href="https://www.pinterest.com/"><i class="fa fa-pinterest"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/ad3578afcd.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
