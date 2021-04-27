@@ -68,6 +68,12 @@ p {
     line-height: 25px;
     text-align: left;
 }
+
+.quote {
+    color: #fafafa;
+    font-size: 18px;
+    
+}
 /*----- navigation -----*/
 
 .nav-color {
