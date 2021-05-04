@@ -1,42 +1,42 @@
 
+const searchBtn = document.getElementById("srch-btn");
+let output = document.getElementById("meal");
+let html = ""
 
-let button = document.getElementById("button");
-let output = document.getElementById("meal")
-let html =""
-button.addEventListener('click', getRecipe)
+searchBtn.addEventListener("click", findMeals());
 
-
-// API CALL
-function getRecipe(){
-    let ingredients = document.getElementById("ingredients").value;
-    fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredients}`)
-        .then(response => response.json())
-        .then(result => { const mealList = result
-            if(mealList.meals){
-                mealList.meals.forEach(meal => {
-                html += `
+function findMeals(){
+    let mealSearch = document.getElementById("meal-srch").value;
+    let diet = document.getElementById("diet").value;
+    let allergy = document.getElementById("intolerance").value;
+    fetch(`https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?query=${mealSearch}&diet=${diet}&intolerances=${allergy}&number=10`, {
+	"method": "GET",
+	"headers": {
+		"x-rapidapi-key": "518ace866amsh0cf82a1f5a0c004p1d243djsneb40d8f01a66",
+		"x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com"
+	}
+})
+.then(response => response.json())
+.then(result => { const mealList = result
+         if(mealList.results){
+            mealList.results.forEach(meal => 
+                html +=`
                 <div>
-                    <div class = "meal-img">
-                        <img src = "${meal.strMealThumb}" alt = "food">
-                    </div>
                     <div class = "meal-name">
-                        <h3>${meal.strMeal}</h3>
+                        <h3>${meal.title}</h3>
+                        <a href="${meal.sourceUrl}">Go to Recipe</a>
                     </div>
+                    <div class = "meal-img">
+                        <img src = "${meal.image}" alt = "food">
+                    </div>
+
                 </div>
-                ` ;                 
-                });
+                `);
                 output.classList.remove('notFound');
-            } else{
+        } else {
                 html = "Sorry, we didn't find any meal!";
-                output.classList.add('notFound');
-            }
-
-            output.innerHTML = html;
-            })
-            
-            };
-
-
-
-
-     
+                output.classList.add('notFound');            
+        }
+                output.innerHTML = html;
+            });
+        }
