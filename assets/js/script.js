@@ -1,9 +1,9 @@
 
-const searchBtn = document.getElementById("srch-btn");
+let searchBtn = document.getElementById("srch-btn");
 let output = document.getElementById("meal");
-let html = ""
+let html = "";
 
-searchBtn.addEventListener("click", findMeals());
+searchBtn.addEventListener("click", findMeals);
 
 function findMeals(){
     let mealSearch = document.getElementById("meal-srch").value;
@@ -21,13 +21,13 @@ function findMeals(){
          if(mealList.results){
             mealList.results.forEach(meal => 
                 html +=`
-                <div>
-                    <div class = "meal-name">
+                <div data-id="${meal.id}>
+                    <div class ="meal-name">
                         <h3>${meal.title}</h3>
                         <a href="${meal.sourceUrl}">Go to Recipe</a>
                     </div>
-                    <div class = "meal-img">
-                        <img src = "${meal.image}" alt = "food">
+                    <div class ="meal-img">
+                        <img src ="https://spoonacular.com/recipeImages/${meal.id}-90x90.jpg" alt ="food">
                     </div>
 
                 </div>
