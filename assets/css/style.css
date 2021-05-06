@@ -3,7 +3,7 @@
 
 /*----- background -----*/
 body {
-    background-color: #EDDDD4;
+    background-color: #fafafa;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -40,77 +40,6 @@ body {
 
 /*----- fonts -----*/
 
-.heading {
-    font-family: 'Fredericka the Great', cursive;
-    font-weight: normal;
-    font-size: 120px;
-    line-height: 150px;
-    text-decoration-line: underline;
-    text-transform: capitalize;
-
-    color: #fafafa;
-    float: left;
-}
-
-h2 {
-    font-family: 'Fredericka the Great';
-    color: #3A1673;
-}
-
-p {
-    width: 400px;
-    margin: 40px;
-    color: #fafafa;
-    font-family: OpenSans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 25px;
-    text-align: left;
-}
-
-.quote {
-    color: #fafafa;
-    font-size: 18px;
-    
-}
-/*----- navigation -----*/
-
-.nav-color {
-    background-color: #3A1673;
-}
-
-.nav-link {
-    font-family: 'Fredericka the Great';
-    font-size: 20px;
-    color: #fafafa;
-}
-
-/*----- general section layouts -----*/
-.instuctions {
-    color: black;
-    
-}
-
-.btn-submit {
-    color: #fafafa;
-    background-color: #3A1673;
-
-}
-
-.search-bar {
-    width: 50%;
-    
-}
-
-/*----- calorie section -----*/
-.calories{
-
-}
-/*----- recipe section -----*/
-.recipes {
-
-}
 /*---- footer ----*/
 
 .footer-basic {
