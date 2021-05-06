@@ -24,15 +24,11 @@ function findMeals(){
          if(mealList.results){
             mealList.results.forEach(meal => 
                 html +=`    
-                <div data-id="${meal.id}>
-                    <div class ="meal-name">
+                <div class="meal-card m-2" data-id="${meal.id}>
+                    <div class ="meal-name mb-2 p-2">
                         <h3>${meal.title}</h3>
-                        <a href="${meal.sourceUrl}">Go to Recipe</a>
-                    </div>
-                    <div class ="meal-img">
-                        <img src ="https://spoonacular.com/recipeImages/${meal.id}-90x90.jpg" alt ="food">
-                    </div>
-                    
+                        <a href="${meal.sourceUrl}" class="meal-image"><img src ="https://spoonacular.com/recipeImages/${meal.id}-240x150.jpg" alt ="food"></a>
+                    </div>   
                 </div>
                 `); // html output
                 output.classList.remove('notFound');

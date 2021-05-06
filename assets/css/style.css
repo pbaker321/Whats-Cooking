@@ -74,15 +74,21 @@ h6 {
 }
 
 /*----- meals -----*/
-.meal-wrap {
+
+.meal-card {
+    width: 30%;
     border-radius: 1rem;
+    border-color: #3A1673;
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
-    margin: 2rem 0;
+}
+
+.meal-image {
+    margin-bottom: 1rem;
 }
 
 /*----- form -----*/
@@ -91,6 +97,7 @@ h6 {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
+    border-color: #3A1673;
 }
 
 .form-heading {
