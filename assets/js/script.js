@@ -1,14 +1,17 @@
 
 let searchBtn = document.getElementById("srch-btn");
 let output = document.getElementById("meal");
-let html = "";
+output.innerHTML = "";
 
+// event listener
 searchBtn.addEventListener("click", findMeals);
 
+// call api
 function findMeals(){
-    let mealSearch = document.getElementById("meal-srch").value;
-    let diet = document.getElementById("diet").value;
-    let allergy = document.getElementById("intolerance").value;
+    let mealSearch = document.getElementById("meal-srch").value;    //meal search input
+    let diet = document.getElementById("diet").value;   // diet input
+    let allergy = document.getElementById("intolerance").value; // allergen input
+    let html = "";
     fetch(`https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?query=${mealSearch}&diet=${diet}&intolerances=${allergy}&number=10`, {
 	"method": "GET",
 	"headers": {
@@ -20,7 +23,7 @@ function findMeals(){
 .then(result => { const mealList = result
          if(mealList.results){
             mealList.results.forEach(meal => 
-                html +=`
+                html +=`    
                 <div data-id="${meal.id}>
                     <div class ="meal-name">
                         <h3>${meal.title}</h3>
@@ -29,9 +32,9 @@ function findMeals(){
                     <div class ="meal-img">
                         <img src ="https://spoonacular.com/recipeImages/${meal.id}-90x90.jpg" alt ="food">
                     </div>
-
+                    
                 </div>
-                `);
+                `); // html output
                 output.classList.remove('notFound');
         } else {
                 html = "Sorry, we didn't find any meal!";
