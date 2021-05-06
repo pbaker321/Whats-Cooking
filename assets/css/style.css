@@ -40,6 +40,72 @@ body {
 
 /*----- fonts -----*/
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Fredericka the Great';
+}
+
+/*----- header -----*/
+.heading {
+    color: #fafafa;
+    font-size: 5rem;
+}
+
+/*----- about -----*/
+
+.about {
+    color: #fafafa;
+    font-size: 1rem;
+    
+}
+
+.srch-heading {
+    color: black;
+    font-size: 3rem;
+}
+
+.srch-about {
+    color: black;
+    font-size: 1rem;
+}
+
+/*----- meals -----*/
+.meal-wrap {
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    margin: 2rem 0;
+}
+
+/*----- form -----*/
+.center-form {
+    color: black;
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.form-heading {
+    color: black;
+    font-size: 2rem;
+}
+
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #3A1673;
+    color: #fafafa;
+}
+
 /*---- footer ----*/
 
 .footer-basic {
