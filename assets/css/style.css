@@ -25,7 +25,7 @@ body {
 /*----- main image -----*/
 .main-image {
     border-radius: 1rem;
-    background: url(../images/veg-slate.jpg) no-repeat center;
+    background: url(../images/top-view-circular-food-frame.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -34,7 +34,7 @@ body {
     flex-direction: column;
     max-height: 100%;
     max-width: 100%;
-    
+    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
     
 
 }
@@ -91,18 +91,18 @@ body {
     color: black;
     padding-top: 10px;
     margin: 0 auto;
-    max-width: 70%;
+    max-width: 60%;
     border-color: #3A1673;
 }
 
 .form-heading {
     font-family: 'Fredericka the Great';
-    color: #fafafa;
+    color: black;
     font-size: 2rem;
 }
 
 .form-text {
-    color: #fafafa;
+    color: black;
 }
 
 
@@ -135,3 +135,16 @@ button[type="submit"] {
 }
 /*----- media -----*/
 
+@media(max-width: 500px) {
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0;
+        max-width: 80%;
+}
+
+    .meal-area {
+        margin: auto;
+    }
+}
