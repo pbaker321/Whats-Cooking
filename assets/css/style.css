@@ -70,12 +70,15 @@ body {
 
 .meal-area {
     width: 100%;
+    height: 100%;
+    display: inline;
 }
 
 .meal-card {
     font-family: 'Rubik';
     color: #2b2d42;
-    width: 30%;
+    width: 100%;
+    height: 100%;
     border-radius: 1rem;                    
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;

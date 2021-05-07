@@ -23,9 +23,9 @@ function findMeals(){
     if(mealList.results){
         mealList.results.forEach(meal => 
         html +=` 
-        <div class="row">                 
-            <div class="meal-card col-12 m-2" data-id="${meal.id}">
-                <div class ="text-center mb-2 p-2">
+        <div class="col-4">                 
+            <div class="meal-card m-1 p-1" data-id="${meal.id}">
+                <div class ="">
                     <h3>${meal.title}</h3>
                     <a href="${meal.sourceUrl}" target="_blank" class="meal-image"><img src ="https://spoonacular.com/recipeImages/${meal.id}-240x150.jpg" alt ="food"></a>
                 </div> 
