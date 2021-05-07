@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;1,300&display=swap');
 
 /*----- background -----*/
 body {
@@ -35,7 +35,7 @@ body {
     flex-direction: column;
     max-height: auto;
     max-width: auto;
-    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    box-shadow: 0 4px 21px -12px rgba(66, 5, 5, 0.79);
     
 
 }
@@ -46,8 +46,9 @@ body {
 
 /*----- header -----*/
 .heading {
-    font-family: 'Fredericka the Great';
-    color: black;
+    font-family: 'Rubik';
+    color: #2b2d42;
+    
 }
 
 
@@ -55,7 +56,7 @@ body {
 
 
 .srch-heading {
-    font-family: 'Fredericka the Great';
+    font-family: 'Rubik';
     color: black;
     font-size: 3rem;
 }
@@ -72,13 +73,15 @@ body {
 }
 
 .meal-card {
+    font-family: 'Rubik';
+    color: #2b2d42;
     border-radius: 1rem;                    
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     overflow: hidden;
-    box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+    box-shadow: 0 4px 21px -12px rgba(66, 5, 5, 0.79);
 
 }
 
@@ -89,7 +92,8 @@ body {
 /*----- form -----*/
 
 .center-form {
-    color: black;
+    font-family: 'Rubik';
+    color: #2b2d42;
     padding-top: 10px;
     margin: 0 auto;
     max-width: 60%;
@@ -97,20 +101,21 @@ body {
 }
 
 .form-heading {
-    font-family: 'Fredericka the Great';
-    color: black;
+    font-family: 'Rubik';
+    color: #2b2d42;
     font-size: 2rem;
 }
 
 .form-text {
-    color: black;
+    color: #2b2d42;
 }
 
 
 button[type="submit"] {
+    font-family: 'Rubik';
     margin-top: 15px;
     margin-bottom: 20px;
-    background-color: #3A1673;
+    background-color: #2b2d42;
     color: #fafafa;
 }
 
@@ -120,11 +125,12 @@ button[type="submit"] {
     margin-top: auto;
     width:100%;
     height:80px; 
-    background-color: #3A1673;
+    background-color: #2b2d42;
 }
 
 .footer-basic,
 .social {
+    padding-top: 1rem;
     vertical-align: middle;
     text-align: center;
     color: #fafafa;
