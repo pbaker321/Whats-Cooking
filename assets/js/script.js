@@ -23,13 +23,15 @@ function findMeals(){
 .then(result => { const mealList = result
          if(mealList.results){
             mealList.results.forEach(meal => 
-                html +=`    
-                <div class="meal-card m-2" data-id="${meal.id}">
-                    <div class ="meal-name mb-2 p-2">
+                html +=` 
+                <div class="row">                 
+                <div class="meal-card col-12 m-2" data-id="${meal.id}">
+                    <div class ="text-center mb-2 p-2">
                         <h3>${meal.title}</h3>
-                        <a href="${meal.sourceUrl}" class="meal-image"><img src ="https://spoonacular.com/recipeImages/${meal.id}-240x150.jpg" alt ="food"></a>
-                    </div>   
+                        <a href="${meal.sourceUrl}" target="_blank" class="meal-image"><img src ="https://spoonacular.com/recipeImages/${meal.id}-240x150.jpg" alt ="food"></a>
+                    </div> 
                 </div>
+                </div>                                    
                 `); // html output
                 output.classList.remove('notFound');
         } else {

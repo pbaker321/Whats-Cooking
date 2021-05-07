@@ -78,13 +78,10 @@ body {
 /*----- meals -----*/
 
 .meal-area {
-    display: flex;
-    align-items: center;
-    justify-content: center
+    width: 100%;
 }
 
 .meal-card {
-    width: 50%;
     border-radius: 1rem;                    
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
