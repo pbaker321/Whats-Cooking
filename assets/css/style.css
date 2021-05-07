@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Open+Sans&display=swap');
 
 /*----- background -----*/
@@ -40,19 +39,21 @@ body {
 
 /*----- fonts -----*/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: 'Fredericka the Great';
-}
+
 
 /*----- header -----*/
 .heading {
+    font-family: 'Fredericka the Great';
+    color: #fafafa;
+    font-size: 96px;
+    font-weight: 600;
+}
+
+.about {
     color: #fafafa;
     font-size: 5rem;
+    font-weight: 400;
+    width: 50%;
 }
 
 /*----- about -----*/
@@ -64,6 +65,7 @@ h6 {
 }
 
 .srch-heading {
+    font-family: 'Fredericka the Great';
     color: black;
     font-size: 3rem;
 }
@@ -75,16 +77,22 @@ h6 {
 
 /*----- meals -----*/
 
+.meal-area {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
 .meal-card {
-    width: 30%;
-    border-radius: 1rem;
-    border-color: #3A1673;
+    width: 50%;
+    border-radius: 1rem;                    
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
+
 }
 
 .meal-image {
@@ -101,6 +109,7 @@ h6 {
 }
 
 .form-heading {
+    font-family: 'Fredericka the Great';
     color: black;
     font-size: 2rem;
 }

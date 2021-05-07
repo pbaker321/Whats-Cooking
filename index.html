@@ -43,11 +43,11 @@
 <!-- landing -->
 
     <header>
-        <div class="jumbotron-fluid main-image">
+        <div class="jumbotron-fluid main-image mb-4">
             <div class="col">
-                <h1 class="heading text-center">What's Cooking?</h1>
+                <h1 class="heading text-center m-3 display-1">What's Cooking?</h1>
             </div>    
-            <div class="col about text-center">
+            <div class="col-12 about text-center mb-2">
                 <p>Hi and welcome to What's Cooking!</p>
                 <p>We all get stuck on ideas of what to cook for dinner! Fed up of repeating the same dishes week in, week out.
                 What's Cooking can help with that. Whether your watching calories or looking to use up what we have in the fridge already. We can help with that!</p>
@@ -57,7 +57,7 @@
         </div>
     </header>
 
-<!-- recipe search -->
+<!-- meal search intro -->
 
     
         <div class="container mt-2">  
@@ -68,36 +68,37 @@
                     Sweet roll lollipop gummies candy gingerbread ice cream I love sesame snaps. I love candy ice cream.
             </p>
         </div>
-            <div class="center-form">
-                <div class="mb-2">
-                    <h5 class="text-center form-heading">Meal</h5>
-                    <input type="text" id="meal-srch" class="form-control" placeholder="Enter Meal">
-                    <small class="form-text text-muted">Search Meals by name or by main ingerdient</small>
-                </div>
-                <div class="mb-2">
-                    <h5 class="text-center form-heading">Diet</h5>
-                    <input type="text" id="diet" class="form-control" placeholder="Vegan etc...">
-                    <small class="form-text text-muted">Add your dietry requirements</small>
-                </div>
-                <div class="mb-2">
-                    <h5 class="text-center form-heading">Allergens</h5>
-                    <input type="text" id="intolerance" class="form-control" placeholder="Allergies/Intolerances">
-                    <small class="form-text text-muted">Add any allergens or Intolerances</small>
-                </div>
-                <button type="submit" class="btn btn-sm btn-submit" id="srch-btn">Get Meals Now!</button>                             
-            </div>
-            <div id= "meal" class="text-center ml-3 m-2">
-                <div class="">
-                <!--  <div class = "meal-name center">
-                        <h3>${meal.strMeal}</h3>
-                        <a href="${meal.strSource}" id="recipe" target="_blank" class="recipe-button">Go to Recipe</a>
-                    </div>
-                    <div class = "meal-img">
-                        <img src = "${meal.strMealThumb}" alt = "food">
-                    </div> -->
 
-                </div>
+<!-- meal search form -->
+
+        <div class="center-form">
+            <div class="mb-2">
+                <h5 class="text-center form-heading">Meal</h5>
+                <input type="text" id="meal-srch" class="form-control" placeholder="Enter Meal">
+                <small class="form-text text-muted">Search Meals by name or by main ingerdient</small>
             </div>
+            <div class="mb-2">
+                <h5 class="text-center form-heading">Diet</h5>
+                <input type="text" id="diet" class="form-control" placeholder="Vegan etc...">
+                <small class="form-text text-muted">Add your dietry requirements</small>
+            </div>
+            <div class="mb-2">
+                <h5 class="text-center form-heading">Allergens</h5>
+                <input type="text" id="intolerance" class="form-control" placeholder="Allergies/Intolerances">
+                <small class="form-text text-muted">Add any allergens or Intolerances</small>
+            </div>
+            <button type="submit" class="btn btn-sm btn-submit" id="srch-btn">Get Meals Now!</button>                             
+        </div>
+
+<!-- api results -->
+
+        <div id= "meal" class="meal-area text-center row col-sm-12 m-4">
+            <div class="">
+
+<!--- js resuts -->
+
+            </div>               
+        </div>
 
 
 <!-- footer -->
