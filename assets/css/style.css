@@ -24,7 +24,8 @@ body {
 
 /*----- main image -----*/
 .main-image {
-    background: url(../images/veg-slate.jpg) no-repeat;
+    border-radius: 1rem;
+    background: url(../images/veg-slate.jpg) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -32,6 +33,7 @@ body {
     display: flex;
     flex-direction: column;
     max-height: 100%;
+    max-width: 100%;
     
     
 
@@ -44,25 +46,13 @@ body {
 /*----- header -----*/
 .heading {
     font-family: 'Fredericka the Great';
-    color: #fafafa;
-    font-size: 96px;
-    font-weight: 400;
+    color: black;
+    font-size: 10rem;
 }
 
-.about {
-    color: #fafafa;
-    font-size: 5rem;
-    font-weight: 400;
-    width: 50%;
-}
 
 /*----- about -----*/
 
-.about {
-    color: #fafafa;
-    font-size: 1rem;
-    
-}
 
 .srch-heading {
     font-family: 'Fredericka the Great';
@@ -107,8 +97,12 @@ body {
 
 .form-heading {
     font-family: 'Fredericka the Great';
-    color: black;
+    color: #fafafa;
     font-size: 2rem;
+}
+
+.form-text {
+    color: #fafafa;
 }
 
 
@@ -139,3 +133,5 @@ button[type="submit"] {
     color: #fafafa;
     font-size: 20px;
 }
+/*----- media -----*/
+
