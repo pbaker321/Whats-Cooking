@@ -1,7 +1,6 @@
-
 let searchBtn = document.getElementById("srch-btn");
 let output = document.getElementById("meal");
-output.innerHTML = "";
+output.innerHTML = ""; // clears previous search
 
 // event listener
 searchBtn.addEventListener("click", findMeals);
@@ -21,23 +20,23 @@ function findMeals(){
 })
 .then(response => response.json())
 .then(result => { const mealList = result
-         if(mealList.results){
-            mealList.results.forEach(meal => 
-                html +=` 
-                <div class="row">                 
-                <div class="meal-card col-12 m-2" data-id="${meal.id}">
-                    <div class ="text-center mb-2 p-2">
-                        <h3>${meal.title}</h3>
-                        <a href="${meal.sourceUrl}" target="_blank" class="meal-image"><img src ="https://spoonacular.com/recipeImages/${meal.id}-240x150.jpg" alt ="food"></a>
-                    </div> 
-                </div>
-                </div>                                    
-                `); // html output
-                output.classList.remove('notFound');
-        } else {
-                html = "Sorry, we didn't find any meal!";
-                output.classList.add('notFound');            
-        }
-                output.innerHTML = html;
-            });
-        }
+    if(mealList.results){
+        mealList.results.forEach(meal => 
+        html +=` 
+        <div class="row">                 
+            <div class="meal-card col-12 m-2" data-id="${meal.id}">
+                <div class ="text-center mb-2 p-2">
+                    <h3>${meal.title}</h3>
+                    <a href="${meal.sourceUrl}" target="_blank" class="meal-image"><img src ="https://spoonacular.com/recipeImages/${meal.id}-240x150.jpg" alt ="food"></a>
+                </div> 
+            </div>
+        </div>                                    
+    `); // html output
+        output.classList.remove('notFound');
+} else {
+        html = "Sorry, we didn't find any meal!";
+        output.classList.add('notFound');            
+}
+        output.innerHTML = html;
+});
+}

@@ -23,6 +23,7 @@ body {
 }
 
 /*----- main image -----*/
+
 .main-image {
     border-radius: 1rem;
     background: url(../images/top-view-circular-food-frame.jpg) no-repeat center;
@@ -86,6 +87,7 @@ body {
 }
 
 /*----- form -----*/
+
 .center-form {
     color: black;
     padding-top: 10px;
