@@ -32,8 +32,8 @@ body {
     -o-background-size: cover;
     display: flex;
     flex-direction: column;
-    max-height: 100%;
-    max-width: 100%;
+    max-height: auto;
+    max-width: auto;
     box-shadow: 0 4px 21px -12px rgba(0, 0, 0, 0.79);
     
 
@@ -117,12 +117,13 @@ button[type="submit"] {
 .footer-basic {
     margin-top: auto;
     width:100%;
-    height:60px; 
+    height:80px; 
     background-color: #3A1673;
 }
 
 .footer-basic,
 .social {
+    vertical-align: middle;
     text-align: center;
     color: #fafafa;
 }
