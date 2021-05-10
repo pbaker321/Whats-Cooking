@@ -155,10 +155,11 @@ button[type="submit"] {
         padding-top: 30px;
         min-height: 240px;
         margin: 0;
-        max-width: 80%;
+        max-width: 100%;
 }
 
     .meal-area {
         margin: auto;
     }
+
 }
