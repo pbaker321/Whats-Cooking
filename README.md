@@ -1,27 +1,28 @@
-# What's Cooking
+# What's Cooking?
 
 ## Code Institute Milestone Project 2
 
-A responsive website used as a recipe search. Recipes can found using ingredients through an API. It'd designed to help users find new recipes to cook involving either their favourite foods or what might be available in the fridge and cupboards.
+A responsive website used as a recipe search. Recipes can found using either a main ingredient, a meal or cuisine through an API.
 
-This is can be helpful to user as a meal planner, which can help the environment as i can reduce food wastage by helping the user use up food thats already been bought.
+The user will also be able to search using specific requirements such as dietry needs, allergens and intolerances.
 
 The site can be built upon further by adding more features in the future, which could make it a complete weekly planner for cooking and food shopping.
 
 ## UX
 
-The aim of the website is a random recipe finder based on the user entering up to three ingredients. The site also wants to promote healthy eating so will show the user nutritional values and calories for each recipe. The site also wants to encourage users to stop wasting food. 
+The aim of the website is a specific recipe finder based on the user entering up to three details.
+This will give the user an easier way to find recipes based on their needs 
 
 ### Target Users
 
 * Users looking for new recipes ideas
-* Users interested in the nutritional values of food
+* Users with specific allergies or intolerances
 * Users interested in healthy food
-* Users looking to use up food items already in their pantry
-* Users looking new recipes based specific ingredients
+* Users looking for different international cuisines
+* Users looking new recipes based specific dietry requirements
 * Users new to cooking
 * Users that know how to cook
-* User who are watching the calories
+* Users who may want to change their diet
 
 ### User Stories
 
@@ -29,12 +30,13 @@ The aim of the website is a random recipe finder based on the user entering up t
 * As a User I want to be able to use the website with ease
 * As a User I want to be able to find a wide arrange of recipes
 * As a user I want to find new and random recipes using certain ingredients
-* As a User I want to be able to the nutritional values of the recipe
-* As a User I want to know how many calories the recipe is
-* As a User I don't want to buy more food and want to use what is in my pantry.
+* As a User I want to find new and random recipes using certain dietry requirements
+* As a User I want to find new and random recipes using certain intolerances or allergens
+* As a User I want to access recipes easily
+* As a User I want to see an image of the recipe
 * As a User I want to able to use the site on different platforms
 
-The wireframes cane be found [here].
+The wireframes cane be found [here](https://www.figma.com/file/US5MHHxL12SBCDNVNIKVaU/Recipe-Site?node-id=0%3A1).
 
 ## Features
 
@@ -42,13 +44,33 @@ The wireframes cane be found [here].
 #### Exsisting Features
 
 One page consisting of 
-1. landing - Hero image, Main Header and about the site
-2. Input form for the ingredients with a submit button
-3. Recipe broken into 3 columns. Ingredients, Method & Nutrition
-4. Next and Previous buttons so user can navigate through recipes
-5. Footer with links to Social Media
+1. landing - Hero image, Main Header and about a famous food quote
+2. Input form for either main ingredient, specific meal or cuisine
+3. Submit button which will return a maximum of 10 meals
+4. Each meal will have its title and image
+5. Clicking on the image will redirect the user to the recipe website on a new tab
+6. Input form will reset whe user clicks on the Input
+7. Results will refresh on new submit
+8. Footer with links to Social Media
 
 #### Future Features
-* Search recipe by calories
+* Meal planner by inputting daily calories
 * Shopping List creator based on saved recipes
-* Membership feature allowing the user to pay a fee to permanently save recipes and possibly extend search
+* Wine pairing and recomendations
+* User login for a search database so the user can save recipes
+* Subscription for a mailing list for new recipes based on user searches
+* Food blog
+* Random recipe upon enetering the site as a recipe of the day
+
+## Technologies Used
+* [bootstrap4](https://getbootstrap.com/) - Layout & Responsiveness.
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) - Content & Structure.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Styling.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - API 
+* [Github](https://github.com/) - Hosting the site.
+* [Gitpod](https://www.gitpod.io/) - Developing the site.
+* [Freepix](https://www.freepik.com/) - Images.
+* [Fontawesome](https://fontawesome.com/) - Icons.
+* [Googlefonts](https://fonts.google.com/) - Fonts.
+* [RapidApi](https://rapidapi.com/) - API
+
