@@ -68,7 +68,7 @@ body {
     color: #2b2d42;
     width: 100%;
     height: 100%;
-    border-radius: 1rem;                    
+    border-radius: 2rem;                    
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
@@ -126,9 +126,9 @@ button:hover {
 }
 
 .clear-btn {
+    display: none;
     font-family: 'Rubik';
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin: 0 auto;
     background-color: #370617;
     color: #fafafa;
     transition-duration: 0.4s;
