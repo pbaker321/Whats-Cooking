@@ -56,7 +56,7 @@ backToTop = document.getElementById("back-to-top");
 window.onscroll = function() {scrollFunction()};
 // appears once scrolled past 50px
 function scrollFunction() {
-  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     backToTop.style.display = "block";
   } else {
     backToTop.style.display = "none";
