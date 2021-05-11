@@ -10,8 +10,10 @@ The site can be built upon further by adding more features in the future, which 
 
 ## UX
 
-The aim of the website is a specific recipe finder based on the user entering up to three details.
-This will give the user an easier way to find recipes based on their needs 
+The aim of the website is a recipe finder based on the user entering up to three details.
+The more specific the user is the better results will return.
+
+This will give the user an easier way to find recipes based on their needs and wants
 
 ### Target Users
 
@@ -61,6 +63,7 @@ One page consisting of
 11. Modal appears when the user doesnt fill in the Meal inout query stopping the search.
 
 #### Future Features
+
 * Meal planner by inputting daily calories
 * Shopping List creator based on saved recipes
 * Wine pairing and recomendations
