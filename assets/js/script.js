@@ -65,3 +65,18 @@ function topFunction() {
   document.documentElement.scrollTop = 0;
 }
 
+clearBtn = document.getElementById("clear-button")
+
+window.onscroll = function() {reloadFunction()};
+
+function reloadFunction() {
+  if (document.body.scrollTop > 150 || document.documentElement.scrollTop > 150) {
+    clearBtn.style.display = "block";
+  } else {
+    clearBtn.style.display = "none";
+  }
+}
+
+function clearFunction() {
+    location.reload();
+}
