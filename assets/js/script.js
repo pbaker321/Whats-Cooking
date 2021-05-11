@@ -1,6 +1,6 @@
 let searchBtn = document.getElementById("srch-btn");
 let output = document.getElementById("meal");
-output.innerHTML = ""; // clears previous search
+output.innerHTML = ""; // clears previous search whenn new one is started
 
 // event listener
 searchBtn.addEventListener("click", findMeals);
@@ -24,7 +24,7 @@ function findMeals(){
         mealList.results.forEach(meal => 
         html +=` 
         <div class="col-12 col-sm-6 col-md-4 mb-3">                 
-            <div class="meal-card" data-id="${meal.id}">
+            <div class="meal-card"">
                 <div class="">
                     <h3 class ="text-center">${meal.title}</h3>
                     <a href="${meal.sourceUrl}" target="_blank"><img  class="meal-img" src ="https://spoonacular.com/recipeImages/${meal.id}-312x150.jpg" alt ="food"></a>
@@ -59,3 +59,4 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+
