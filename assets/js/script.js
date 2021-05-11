@@ -7,9 +7,10 @@ searchBtn.addEventListener("click", findMeals);
 
 // call api
 function findMeals(){
+    let errorModal = document.getElementById("error-modal")
     let mealSearch = document.getElementById("meal-srch").value;
       if (mealSearch == "") {
-    alert("Meal must be filled out!");
+    $(errorModal).modal("show")
     return false;
   }    //meal search input
     let diet = document.getElementById("diet").value;   // diet input
@@ -30,7 +31,7 @@ function findMeals(){
         <div class="col-12 col-sm-6 col-md-4 mb-3">                 
             <div class="meal-card">
                 <div class="">
-                    <h3 class ="text-center p-1">${meal.title}</h3>
+                    <h5 class ="text-center p-1"">${meal.title}</h5>
                     <a href="${meal.sourceUrl}" target="_blank"><img  class="meal-img" src ="https://spoonacular.com/recipeImages/${meal.id}-312x150.jpg" alt ="food"></a>
                 </div> 
             </div>
