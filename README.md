@@ -27,11 +27,15 @@ This will give the user an easier way to find recipes based on their needs
 ### User Stories
 
 * As a User I want a clean and clear Website
-* As a User I want to be able to use the website with ease
+* As a User I want to be able to navigate around the site with ease
+* As a User I want to be able to use the website with ease with clear messages
 * As a User I want to be able to find a wide arrange of recipes
 * As a user I want to find new and random recipes using certain ingredients
+* As a User I want to look for different international cuisines
+* As a User I want to see different recipes for certain dishes
 * As a User I want to find new and random recipes using certain dietry requirements
 * As a User I want to find new and random recipes using certain intolerances or allergens
+* As a User I want to be able to see a image of the dish before seeing the recipe
 * As a User I want to access recipes easily
 * As a User I want to see an image of the recipe
 * As a User I want to able to use the site on different platforms
@@ -52,6 +56,9 @@ One page consisting of
 6. Input form will reset whe user clicks on the Input
 7. Results will refresh on new submit
 8. Footer with links to Social Media
+9. Back to top feature once a search has been made so the user can return to the search form.
+10. Clear search button appear once a search has been made allowing the user to clear Results
+11. Modal appears when the user doesnt fill in the Meal inout query stopping the search.
 
 #### Future Features
 * Meal planner by inputting daily calories
