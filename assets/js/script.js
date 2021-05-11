@@ -7,7 +7,11 @@ searchBtn.addEventListener("click", findMeals);
 
 // call api
 function findMeals(){
-    let mealSearch = document.getElementById("meal-srch").value;    //meal search input
+    let mealSearch = document.getElementById("meal-srch").value;
+      if (mealSearch == "") {
+    alert("Meal must be filled out!");
+    return false;
+  }    //meal search input
     let diet = document.getElementById("diet").value;   // diet input
     let allergy = document.getElementById("intolerance").value; // allergen input
     let html = "";
@@ -30,7 +34,8 @@ function findMeals(){
                     <a href="${meal.sourceUrl}" target="_blank"><img  class="meal-img" src ="https://spoonacular.com/recipeImages/${meal.id}-312x150.jpg" alt ="food"></a>
                 </div> 
             </div>
-        </div>                                    
+        </div>  
+                                  
     `); // html output
         output.classList.remove("notFound");
 } else {
