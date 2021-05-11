@@ -31,7 +31,7 @@ function findMeals(){
         <div class="col-12 col-sm-6 col-md-4 mb-3">                 
             <div class="meal-card">
                 <div class="">
-                    <h5 class ="text-center p-1"">${meal.title}</h5>
+                    <h5 class ="text-center mt-1 p-2"">${meal.title}</h5>
                     <a href="${meal.sourceUrl}" target="_blank"><img  class="meal-img" src ="https://spoonacular.com/recipeImages/${meal.id}-312x150.jpg" alt ="food"></a>
                 </div> 
             </div>
