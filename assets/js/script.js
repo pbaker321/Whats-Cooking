@@ -9,7 +9,7 @@ searchBtn.addEventListener("click", findMeals);
 function findMeals(){
     let errorModal = document.getElementById("error-modal")
     let mealSearch = document.getElementById("meal-srch").value;
-      if (mealSearch == "") {
+      if (mealSearch.value == "") {
     $(errorModal).modal("show")
     return false;
   }    //meal search input
