@@ -35,45 +35,46 @@
 
     <section>
         <div class="main-image m-4 p-5 mb-4">
-        <div class="center-form">
-            <div class="m-1 p-1">
-                <h5 class="text-center form-heading">Meal</h5>
-                <input type="text" id="meal-srch" class="form-control" placeholder="Required" onfocus="this.value=''" required>
-                <small class="form-text srch-text">Search Meals by name, main ingerdient or cuisine</small>
+            <div class="center-form">
+                <div class="m-1 p-1">
+                    <h5 class="text-center form-heading">Meal</h5>
+                    <input type="text" id="meal-srch" class="form-control" placeholder="Required" onfocus="this.value=''" required>
+                    <small class="form-text srch-text">Search Meals by name, main ingerdient or cuisine</small>
+                </div>
+                <div class="m-1 p-1">
+                    <h5 class="text-center form-heading">Diet</h5>
+                    <input type="text" id="diet" class="form-control" placeholder="Optional" onfocus="this.value=''">
+                    <small class="form-text">Vegan etc</small>
+                </div>
+                <div class="m-1 p-1">
+                    <h5 class="text-center form-heading">Allergens</h5>
+                    <input type="text" id="intolerance" class="form-control" placeholder="Optional" onfocus="this.value=''">
+                    <small class="form-text">Add any allergens or Intolerances</small>
+                </div>
+                <div class="text-center m-1 p-1">
+                    <button type="submit" class="btn btn-submit" id="srch-btn">Get Meals Now!</button>
+                </div>                           
             </div>
-            <div class="m-1 p-1">
-                <h5 class="text-center form-heading">Diet</h5>
-                <input type="text" id="diet" class="form-control" placeholder="Optional" onfocus="this.value=''">
-                <small class="form-text">Vegan etc</small>
-            </div>
-            <div class="m-1 p-1">
-                <h5 class="text-center form-heading">Allergens</h5>
-                <input type="text" id="intolerance" class="form-control" placeholder="Optional" onfocus="this.value=''">
-                <small class="form-text">Add any allergens or Intolerances</small>
-            </div>
-            <div class="text-center m-1 p-1">
-                <button type="submit" class="btn btn-submit" id="srch-btn">Get Meals Now!</button>
-            </div>                           
         </div>
-        </div>
-</section>   
+    </section>   
 
 <!-- error modal if meal input is missing -->
-<div class="modal" tabindex="-1" role="dialog" id="error-modal">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Your missing something!</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <p>Meal field required!</p>
-      </div>
+
+    <div class="modal" tabindex="-1" role="dialog" id="error-modal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your missing something!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p>Meal field required!</p>
+                </div>
+            </div>
+        </div>
     </div>
-  </div>
-</div>
 
 <!-- api results -->
     
