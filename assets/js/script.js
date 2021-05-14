@@ -7,9 +7,9 @@ searchBtn.addEventListener("click", findMeals);
 
 // call api
 function findMeals(){
-    let errorModal = document.getElementById("error-modal")
-    let mealSearch = document.getElementById("meal-srch").value;
-      if (mealSearch.value == "") {
+    let errorModal = document.getElementById("error-modal");
+    let mealSearch = document.getElementById("meal-srch").value.trim();
+      if (mealSearch == "") {
     $(errorModal).modal("show")
     return false;
   }    //meal search input
@@ -40,12 +40,11 @@ function findMeals(){
         </div>  
                                   
     `); // html output
-        output.classList.remove("notFound");
-} else {
-        html = "Sorry, we didn't find any meal!";
-        output.classList.add("notFound");            
-}
         output.innerHTML = html;
+} else {
+        output.innerHTML = "Sorry, we didn't find any meal!";            
+}
+
 });
 }
 
