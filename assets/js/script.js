@@ -1,5 +1,6 @@
 let searchBtn = document.getElementById("srch-btn");
 let output = document.getElementById("meal");
+const regex = /[^A-Za-z0-9]+/;
 //output.innerHTML = ""; // clears previous search whenn new one is started
 
 // event listener
@@ -25,7 +26,7 @@ function findMeals(){
 })
 .then(response => response.json())
 .then(result => { const mealList = result
-    if(mealList.length < 0){
+    if(mealList.results.length > 0){
         mealList.results.forEach(meal => 
         html +=` 
         <div class="col-12 col-sm-6 col-md-4 mb-3">                 
@@ -40,11 +41,9 @@ function findMeals(){
         </div>  
                                   
     `); // html output
-
 } else {
-        html = "sorry"
-
-           
+        output.classList.add("not-found")
+        html = "Sorry the meal you were looking for cannot be found!"          
 };
         output.innerHTML = html;
 });

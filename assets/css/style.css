@@ -137,6 +137,7 @@ button:hover {
 .notFound {
     color: #370617;
     font-family: 'Rubik';
+    text-align: center;
 }
 
 /*---- modal ----*/
