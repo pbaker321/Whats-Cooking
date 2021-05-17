@@ -42,11 +42,7 @@ function findMeals(){
     `); // html output
 
 } else {
-        html +=`
-        <div class="meal-card">
-            <h5>Sorry we could find any results with ${mealSearch}</h5>
-        </div>
-        `
+        output.innerHTML = "sorry"
 
            
 }
