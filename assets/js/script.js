@@ -40,11 +40,17 @@ function findMeals(){
         </div>  
                                   
     `); // html output
-        output.innerHTML = html;
-} else {
-        output.innerHTML = "Sorry, we didn't find any meal!";            
-}
 
+} else {
+        html +=`
+        <div class="meal-card">
+            <h5>Sorry we could find any results with ${mealSearch}</h5>
+        </div>
+        `
+
+           
+}
+        output.innerHTML = html;
 });
 }
 

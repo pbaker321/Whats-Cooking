@@ -134,6 +134,11 @@ button:hover {
     transition-duration: 0.4s;
 }
 
+.notFound {
+    color: #370617;
+    font-family: 'Rubik';
+}
+
 /*---- modal ----*/
 
 .modal {
