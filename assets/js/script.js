@@ -1,6 +1,6 @@
 let searchBtn = document.getElementById("srch-btn");
 let output = document.getElementById("meal");
-output.innerHTML = ""; // clears previous search whenn new one is started
+//output.innerHTML = ""; // clears previous search whenn new one is started
 
 // event listener
 searchBtn.addEventListener("click", findMeals);
@@ -25,7 +25,7 @@ function findMeals(){
 })
 .then(response => response.json())
 .then(result => { const mealList = result
-    if(mealList.results){
+    if(mealList.length < 0){
         mealList.results.forEach(meal => 
         html +=` 
         <div class="col-12 col-sm-6 col-md-4 mb-3">                 
@@ -42,10 +42,10 @@ function findMeals(){
     `); // html output
 
 } else {
-        output.innerHTML = "sorry"
+        html = "sorry"
 
            
-}
+};
         output.innerHTML = html;
 });
 }
