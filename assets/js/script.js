@@ -29,9 +29,9 @@ function findMeals(){
     if(mealList.results.length > 0){
         mealList.results.forEach(meal => 
         html +=` 
-        <div class="col-12 col-sm-6 col-md-4 mb-3">                 
+        <div class="col-12 col-sm-6 col-md-6 col-lg-4 mb-3">                 
             <div class="meal-card">
-                <div class="">
+                <div>
                     <h5 class ="text-center mt-1 p-2"">${meal.title}</h5>
                 </div>
                 <div>
