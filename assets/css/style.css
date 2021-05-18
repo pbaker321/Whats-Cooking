@@ -33,8 +33,6 @@ body {
     -o-background-size: cover;
     display: flex;
     flex-direction: column;
-    max-height: auto;
-    max-width: auto;
     box-shadow: 0 4px 21px -12px rgba(56, 55, 55, 0.79), 0 4px 21px -12px rgba(56, 55, 55, 0.79);
     
 
