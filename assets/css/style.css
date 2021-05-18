@@ -3,10 +3,6 @@
 /*----- background -----*/
 body {
     background-color: #fafafa;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
