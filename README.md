@@ -1,17 +1,14 @@
-
-
-
-# What's Cooking?
-
-  
+# What's Cooking? 
 
 ## Code Institute Milestone Project 2
+
 
 A responsive website used as a recipe search. Recipes can found using either a main ingredient, a meal or cuisine through an API.
 The user will also be able to search using specific requirements such as dietary needs, allergens and intolerance's.
 The site can be built upon further by adding more features in the future, which could make it a complete weekly planner for cooking and food shopping.
 
 The live version can be found [here](https://pbaker321.github.io/Whats-Cooking/)
+
 
 ## UX
   
@@ -112,11 +109,11 @@ One page consisting of:
 
 ## Testing
 
-### HTML Testing :heavy_check_mark:
+### HTML Testing &#9745;
 
-### CSS Testing :heavy_check_mark:
+### CSS Testing &#9745;
 
-### Browser Testing :heavy_check_mark:
+### Browser Testing &#9745;
 |   	|   **Chrome**	|   **FireFox**	|   **Opera**	|   **Edge**	|
 |---	|---	|---	|---	|---	|
 |   **API**	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|
@@ -186,7 +183,7 @@ One page consisting of:
 * **Site had to be refreshed for new searches**
 	* Clear search results button at the bottom of the results refreshes the page.
 	* Old Results get replaced with new results on a new search.
-	* 
+	 
 
 ## Deployment
 ### Deploying the project
