@@ -1,3 +1,4 @@
+![alt text](readmefile/titleimage.jpg)
 # What's Cooking? 
 
 ## Code Institute Milestone Project 2
@@ -110,9 +111,9 @@ One page consisting of:
 ## Testing
 
 ### HTML Testing &#9745;
-
+![alt text](readmefile/htmltest.jpg)
 ### CSS Testing &#9745;
-
+![alt text](/readmefile/csstest.jpg)
 ### Browser Testing &#9745;
 |   	|   **Chrome**	|   **FireFox**	|   **Opera**	|   **Edge**	|
 |---	|---	|---	|---	|---	|
@@ -187,7 +188,30 @@ One page consisting of:
 
 ## Deployment
 ### Deploying the project
+
+1. Go to Github
+2. Go to repository
+3. Click on settings
+![alt text](readmefile/settings.jpg)
+4. Go to the pages section(*Now has it's own tab*)
+![alt text](readmefile/pages.jpg)
+5. Under source click "none" and select "Master Branch".
+![alt text](readmefile/master-branch.jpg)
+6. Click save
+7. Site address is here
+![alt text](readmefile/published.jpg)
+
 ### Run the code Locally
+
+1. On Github, navigate to the main page of the repository.
+2. Above the list of files, click Code.
+3. Copy the URL on HTTPS by clicking the clipboard.
+![alt text](readmefile/clone.jpg)
+4. In your IDE of choice, open Git Bash.
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL copied from Github.
+7. Press enter and the local clone will be created.
+
 ## Credits
 
 ### Media
