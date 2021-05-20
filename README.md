@@ -117,7 +117,7 @@ One page consisting of:
 ### Browser Testing &#9745;
 |   	|   **Chrome**	|   **FireFox**	|   **Opera**	|   **Edge**	|
 |---	|---	|---	|---	|---	|
-|   **API**	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|
+|   **API**	|   &#9745;	|   &#9745;	|   &#9745;	|   &#9745;	|
 |   **Images**	|  <input type="checkbox" disabled checked /> 	|  <input type="checkbox" disabled checked /> 	|  <input type="checkbox" disabled checked /> 	|  <input type="checkbox" disabled checked /> 	|
 |   **Links**	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|
 |   **Render**	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|
