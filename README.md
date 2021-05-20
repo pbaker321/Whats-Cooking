@@ -118,18 +118,18 @@ One page consisting of:
 |   	|   **Chrome**	|   **FireFox**	|   **Opera**	|   **Edge**	|
 |---	|---	|---	|---	|---	|
 |   **API**	|   &#9745;	|   &#9745;	|   &#9745;	|   &#9745;	|
-|   **Images**	|  <input type="checkbox" disabled checked /> 	|  <input type="checkbox" disabled checked /> 	|  <input type="checkbox" disabled checked /> 	|  <input type="checkbox" disabled checked /> 	|
-|   **Links**	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|
-|   **Render**	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|   <input type="checkbox" disabled checked />	|
+|   **Images**	|  &#9745; 	|  &#9745; 	|  &#9745; 	|  &#9745; 	|
+|   **Links**	|   &#9745;	|   &#9745;	|   &#9745;	|   &#9745;	|
+|   **Render**	|   &#9745;	|   &#9745;	|   &#9745;	|   &#9745;	|
 
 ### Responsive Testing
 |   	|   	| 
 |---	|---	|
-|   **Desktop <1200px**	|  <input type="checkbox" disabled checked /> 	|
-|   **ipad Pro**	|  <input type="checkbox" disabled checked /> 	| 
-|   **ipad**	|   <input type="checkbox" disabled checked />	|
-|   **iphone x**	|   <input type="checkbox" disabled checked />	| 
-|	**iphone 5/SE**	|	<input type="checkbox" disabled checked />	|
+|   **Desktop <1200px**	|  &#9745; 	|
+|   **ipad Pro**	|  &#9745; 	| 
+|   **ipad**	|   &#9745;	|
+|   **iphone x**	|   &#9745;	| 
+|	**iphone 5/SE**	|	&#9745;	|
 
 ### User Story Testing
 * **As a User I want a clean and clear Website**
