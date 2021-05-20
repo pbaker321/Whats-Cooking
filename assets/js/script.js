@@ -1,6 +1,5 @@
 let searchBtn = document.getElementById("srch-btn");
 let output = document.getElementById("meal");
-const regex = /[^A-Za-z0-9]+/;
 //output.innerHTML = ""; // clears previous search whenn new one is started
 
 // event listener
