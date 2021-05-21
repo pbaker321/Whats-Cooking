@@ -2,7 +2,7 @@
 
 /*----- background -----*/
 body {
-    background-color: #fafafa;
+    background: linear-gradient(to top left,#fafafa, #f8f9fa);
     display: flex;
     flex-direction: column;
     min-height: 100vh;    
