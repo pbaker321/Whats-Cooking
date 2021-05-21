@@ -122,6 +122,11 @@ One page consisting of:
 
 ### JavaScript Testing &#9745;
 
+An error found with $ on line 12.
+This is because the modal is using bootstrap.
+
+2 variables unused, but they are linked with the html.
+
 ![js test](readmefile/jshint.jpg)
 
 ### Browser Testing &#9745;
