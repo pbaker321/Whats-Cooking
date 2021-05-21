@@ -118,7 +118,7 @@ One page consisting of:
 
 ### CSS Testing &#9745;
 
-![css test](/readmefile/csstest.jpg)
+![css test](/readmefile/csstest2.jpg)
 
 ### JavaScript Testing &#9745;
 
