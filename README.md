@@ -62,7 +62,7 @@ The Wireframes can be found [here](https://www.figma.com/file/US5MHHxL12SBCDNVNI
 ### Exsisting Features
   
 
-One page consisting of:
+**One page consisting of:**
 
 1. landing - Hero image, Main Header and about a famous food quote
 2. Meal input field for searching either
@@ -73,7 +73,7 @@ One page consisting of:
 3. Diet input field for certain dietary requirements eg. Vegetarian or pescetarian.
 4. Allergen input field where the user can specify any allergens or intolerance's
 5. Each meal will have its title and image
-6. Clicking on the image will redirect the user to the recipe website on a new tab
+6. Clicking on the the meal card (*will hover and pointer changes*) will redirect the user to the recipe website on a new tab
 7. Input form will reset when user clicks on the Input
 8. Results will refresh on new submit
 9. Footer with links to Social Media
