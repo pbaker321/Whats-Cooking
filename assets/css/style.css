@@ -5,8 +5,7 @@ body {
     background-color: #fafafa;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    
+    min-height: 100vh;    
 }
 
 .overlay {
@@ -30,8 +29,6 @@ body {
     display: flex;
     flex-direction: column;
     box-shadow: 0 4px 21px -12px rgba(56, 55, 55, 0.79), 0 4px 21px -12px rgba(56, 55, 55, 0.79);
-    
-
 }
 
 /*----- fonts -----*/
@@ -41,8 +38,7 @@ body {
 /*----- header -----*/
 .heading {
     font-family: 'Rubik';
-    color: #001219;
-    
+    color: #001219;   
 }
 
 .quote {
@@ -54,7 +50,6 @@ body {
 .meal-area {
     margin: auto;
     width: 60%;
-
 }
 
 .meal-card {
@@ -70,12 +65,26 @@ body {
     -o-border-radius: 1rem;
     overflow: hidden;
     box-shadow: 0 4px 21px -12px rgba(56, 55, 55, 0.79), 0 4px 21px -12px rgba(56, 55, 55, 0.79);
-
+    transition: 0.8s;
 }
 
-.meal-img{
+.meal-card:hover {
+    transform: scale(1.1);
+    color: #001219;
+}
+
+.meal-img {
     width: 100%;
     height: 100%;
+}
+
+.link-text {
+    color: #001219;
+}
+
+.link-text:hover {
+    color: #001219;
+    background-color: #fafafa;
 }
 
 /*----- form -----*/
@@ -86,8 +95,7 @@ body {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 60%;
-    border-color: #001219;
-    
+    border-color: #001219;    
 }
 
 .center-form input {
@@ -170,7 +178,7 @@ button:hover {
     color: #f8f9fa;
 }
 
-.social i{
+.social i {
     padding: 0 10px;
     color: #f8f9fa;
     font-size: 20px;
@@ -179,7 +187,6 @@ button:hover {
 .back-to-top {
     color: #f8f9fa;
     font-size: 20px;
-
 }
 
 .back-to-top:hover {
@@ -201,5 +208,4 @@ button:hover {
     .meal-area {
         margin: auto;
     }
-
 }
