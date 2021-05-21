@@ -1,4 +1,4 @@
-![alt text](readmefile/titleimage.jpg)
+![resonse img](readmefile/titleimage.jpg)
 
 
 # What's Cooking? 
@@ -113,10 +113,19 @@ One page consisting of:
 ## Testing
 
 ### HTML Testing &#9745;
-![alt text](readmefile/htmltest.jpg)
+
+![html test](readmefile/htmltest.jpg)
+
 ### CSS Testing &#9745;
-![alt text](/readmefile/csstest.jpg)
+
+![css test](/readmefile/csstest.jpg)
+
+### JavaScript Testing &#9745;
+
+![js test](readmefile/jshint.jpg)
+
 ### Browser Testing &#9745;
+
 |   	|   **Chrome**	|   **FireFox**	|   **Opera**	|   **Edge**	|
 |---	|---	|---	|---	|---	|
 |   **API**	|   &#9745;	|   &#9745;	|   &#9745;	|   &#9745;	|
@@ -195,20 +204,20 @@ One page consisting of:
 2. Go to repository
 3. Click on settings
 
-![alt text](readmefile/settings.jpg)
+![deploy 1](readmefile/settings.jpg)
 
 4. Go to the pages section(*Now has it's own tab*)
 
-![alt text](readmefile/pages.jpg)
+![deploy 2](readmefile/pages.jpg)
 
 5. Under source click "none" and select "Master Branch".
 
-![alt text](readmefile/master-branch.jpg)
+![deploy 3](readmefile/master-branch.jpg)
 
 6. Click save
 7. Site address is here
 
-![alt text](readmefile/published.jpg)
+![depoy 4](readmefile/published.jpg)
 
 
 ### Run the code Locally
@@ -217,7 +226,7 @@ One page consisting of:
 2. Above the list of files, click Code.
 3. Copy the URL on HTTPS by clicking the clipboard.
 
-![alt text](readmefile/clone.jpg)
+![clone](readmefile/clone.jpg)
 
 4. In your IDE of choice, open Git Bash.
 5. Change the current working directory to the location where you want the cloned directory to be made.
