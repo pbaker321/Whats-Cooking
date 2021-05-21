@@ -119,13 +119,14 @@ button[type="submit"] {
     margin-bottom: 20px;
     background-color: #001219;
     color: #f8f9fa;
-    transition-duration: 0.4s;
+    transition-duration: 0.8s;
     vertical-align: middle;
 }
 
 button:hover {
     background-color: #f8f9fa;
     box-shadow: 0 12px 16px 0 rgba(56, 55, 55, 0.79), 0 4px 21px -12px rgba(56, 55, 55, 0.79);
+    transform: scale(1.1);
 }
 
 .clear-btn {
@@ -135,6 +136,11 @@ button:hover {
     background-color: #001219;
     color: #fafafa;
     transition-duration: 0.4s;
+}
+.clear-btn:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0 12px 16px 0 rgba(56, 55, 55, 0.79), 0 4px 21px -12px rgba(56, 55, 55, 0.79);
+    transform: scale(1.1);    
 }
 
 .notFound {
@@ -182,6 +188,11 @@ button:hover {
     padding: 0 10px;
     color: #f8f9fa;
     font-size: 20px;
+    transition: 0.8s;
+}
+
+.social i:hover {
+    transform: scale(1.2);
 }
 
 .back-to-top {
