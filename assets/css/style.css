@@ -38,6 +38,7 @@ body {
 /*----- header -----*/
 .heading {
     font-family: 'Rubik';
+    font-size: 20rem;
     color: #001219;   
 }
 
@@ -218,5 +219,8 @@ button:hover {
 
     .meal-area {
         margin: auto;
+}
+    .heading {
+        font-size: 2rem;
     }
 }
