@@ -11,7 +11,8 @@ function findMeals(){
         if (mealSearch == "") {
             $(errorModal).modal("show");
         return false;
-}    //meal search input
+}
+  //meal search input
     let diet = document.getElementById("diet").value;
  // diet input
     let allergy = document.getElementById("intolerance").value;
@@ -46,7 +47,10 @@ function findMeals(){
 `); // html output
 } else {
     output.classList.add("not-found");
-    html = "Sorry the meal you were looking for cannot be found!";
+    html += `<div class="text-center">
+                <h4>Sorry the meal you were looking for cannot be found!</h4>
+            </div>
+    `;
 }
     output.innerHTML = html;
 });

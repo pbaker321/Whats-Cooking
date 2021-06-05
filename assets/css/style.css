@@ -38,7 +38,6 @@ body {
 /*----- header -----*/
 .heading {
     font-family: 'Rubik';
-    font-size: 20rem;
     color: #001219;   
 }
 
@@ -144,10 +143,11 @@ button:hover {
     transform: scale(1.1);    
 }
 
-.notFound {
+.not-found {
     color: #001219;
     font-family: 'Rubik';
     text-align: center;
+    margin: auto;
 }
 
 /*---- modal ----*/
