@@ -55,6 +55,8 @@ This will give the user an easier way to find recipes based on their needs and w
 
 The Wireframes can be found [here](https://www.figma.com/file/US5MHHxL12SBCDNVNIKVaU/Recipe-Site?node-id=0%3A1).
 
+Please note. There is a big change in the wireframes compared to the end result. This happened as i didn't anticipate the difficulty in implementing the original plan.
+
   
 
 ## Features
@@ -112,15 +114,15 @@ The Wireframes can be found [here](https://www.figma.com/file/US5MHHxL12SBCDNVNI
 
 ## Testing
 
-### HTML Testing &#9745;
+### HTML Validation &#9745;
 
 ![html test](readmefile/htmltest.jpg)
 
-### CSS Testing &#9745;
+### CSS Validation &#9745;
 
 ![css test](/readmefile/csstest2.jpg)
 
-### JavaScript Testing &#9745;
+### JavaScript Validation &#9745;
 
 An error found with $ on line 12.
 This is because the modal is using bootstrap.
